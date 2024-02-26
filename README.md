@@ -14,8 +14,4 @@ Assess model performance in comparison with other models, using validation set
 
 - after training, maybe look at the covariance matrix and see how it compares to the coefficients learned, and see if it makes sense
 - track training error and testing error vs alpha, and also when changing the sample size to see if there are any improvements
-- generate a covariance matrix by doing M x M^T which results in a square matrix, and then run SVD on that square (see jam board)
-- if I need to, test this process on 2 or 3 variables that I can visualize, and plot the errors as I vary alpha etc, and then that'll help to understand what happens
-    - several different combinations of variables
-    - go back and then build on the full dataset.
 
